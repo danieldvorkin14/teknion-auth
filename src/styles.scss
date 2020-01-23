@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Apercu Light", Calibri, sans-serif !important;
+  font-size-adjust: 0.508;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.navbar-brand img {
+  height: 22px;
+}
+
+.navbar-nav > li > a {
+  color: #777 !important;
+  line-height: 22px !important;
+  &:hover {
+    color: black !important;
+  }
+}
+
+.img-fill {
+  width: auto;
+  height: 100%;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.app-container{
+  overflow: hidden;
+}
